@@ -191,6 +191,7 @@ and also the route is exposed for us and reachable from the internet:
 In this lab we finished to exploring Openshift build and deploy using Build Config and cli.
 
 In the first 2 LABS we create all resource by hands and in this LAB we create all resources in one command using the oc cli, is importanto you understand all the steps and the resources created by one single command.
+Using this command in a buildConfig it defines also the trigger to receive the call from webhook (see step 11 from LAB-01 sample-hello-work https://github.com/gcryptolo/sample-hello-work) 
 
 
 In the next LAB we will explore how to create a pipeline to build and deploy our application using Openshift Pipelines.
